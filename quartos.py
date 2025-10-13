@@ -16,4 +16,4 @@ def liberar_quarto(numero):
 
 def listar_quartos():
     for numero, info in quartos.items():
-        print(f"Quarto numero {numero}: {info['status']}")
+        print(f"Status do quarto {numero} - Quarto numero {numero}: {info['status']}")
