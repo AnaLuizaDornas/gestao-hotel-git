@@ -4,6 +4,8 @@ class Cliente:
         self.nome = nome
         self.email = email
 clientes = []
+def saudacao():
+    print("Olá, cliente! Seja bem-vindo!")
 
 def registrar_cliente(nome, email):
     cliente = Cliente(nome, email)
