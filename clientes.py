@@ -3,6 +3,8 @@ class Cliente:
     def __init__(self, nome, email):
         self.nome = nome
         self.email = email
+def saudacao():
+    print("Bem-vindo ao sistema de clientes!")
 clientes = []
 
 def registrar_cliente(nome, email):
@@ -20,4 +22,8 @@ def listar_clientes():
 if __name__ == "__main__":
     registrar_cliente("Ana Luiza", "ana@example.com")
     listar_clientes()
+
+
+
+
     
