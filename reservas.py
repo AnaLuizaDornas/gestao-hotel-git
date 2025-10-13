@@ -20,3 +20,8 @@ def cancelar_reserva(numero_quarto):
 def listar_reservas():
     for reserva in reservas:
         print(f"Cliente: {reserva['cliente'].nome}, Quarto: {reserva['quarto']}")
+
+if __name__ == "__main__":
+    c = Cliente("Ana", "ana@example.com")
+    criar_reserva(c, 101)
+    listar_reservas()
