@@ -16,3 +16,8 @@ def listar_clientes():
     else:
         for i, cliente in enumerate(clientes, 1):
             print(f"{i}. {cliente.nome} - {cliente.email}")
+
+if __name__ == "__main__":
+    registrar_cliente("Ana Luiza", "ana@example.com")
+    listar_clientes()
+    
