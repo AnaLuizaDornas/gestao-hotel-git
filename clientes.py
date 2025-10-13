@@ -6,6 +6,8 @@ class Cliente:
 def saudacao():
     print("Bem-vindo ao sistema de clientes!")
 clientes = []
+def saudacao():
+    print("Olá, cliente! Seja bem-vindo!")
 
 def registrar_cliente(nome, email):
     cliente = Cliente(nome, email)
