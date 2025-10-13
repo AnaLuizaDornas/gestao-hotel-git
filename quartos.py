@@ -1,4 +1,3 @@
-# quartos.py (em feature-quartos)
 quartos = {101: {"status": "disponivel"}, 102: {"status": "disponivel"}}
 
 def verificar_disponibilidade(numero):
@@ -16,4 +15,4 @@ def liberar_quarto(numero):
 
 def listar_quartos():
     for numero, info in quartos.items():
-        print(f"Status do quarto {numero} - Quarto numero {numero}: {info['status']}")
+        print(f"Status do quarto {numero} - Quarto {numero}: {info['status']}")
