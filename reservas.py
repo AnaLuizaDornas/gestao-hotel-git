@@ -7,6 +7,8 @@ def criar_reserva(cliente, numero_quarto):
         ocupar_quarto(numero_quarto)
         reservas.append({"cliente": cliente, "quarto": numero_quarto})
         print(f"Reserva para {cliente.nome} criada no quarto {numero_quarto}.")
+    else:
+        print("Quarto ocupado")
 
 from quartos import liberar_quarto
 def cancelar_reserva(numero_quarto):
@@ -23,5 +25,5 @@ def listar_reservas():
 
 if __name__ == "__main__":
     c = Cliente("Ana", "ana@example.com")
-    criar_reserva(c, 101)
-    listar_reservas()
+    criar_reserva(c, 101)  
+    criar_reserva(c, 101)  
