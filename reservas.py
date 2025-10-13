@@ -16,3 +16,7 @@ def cancelar_reserva(numero_quarto):
             reservas.remove(reserva)
             print(f"Reserva no quarto {numero_quarto} cancelada.")
             return
+
+def listar_reservas():
+    for reserva in reservas:
+        print(f"Cliente: {reserva['cliente'].nome}, Quarto: {reserva['quarto']}")
