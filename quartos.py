@@ -1,0 +1,1 @@
+quartos = {101: {"status": "disponivel"}, 102: {"status": "disponivel"}}
