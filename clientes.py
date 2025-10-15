@@ -1,13 +1,12 @@
-
 class Cliente:
     def __init__(self, nome, email):
         self.nome = nome
         self.email = email
-def saudacao():
-    print("Bem-vindo ao sistema de clientes!")
-clientes = []
+
 def saudacao():
     print("Olá, cliente! Seja bem-vindo!")
+
+clientes = []
 
 def registrar_cliente(nome, email):
     cliente = Cliente(nome, email)
@@ -22,10 +21,6 @@ def listar_clientes():
             print(f"{i}. {cliente.nome} - {cliente.email}")
 
 if __name__ == "__main__":
+    saudacao()  # Adiciona a chamada da saudação
     registrar_cliente("Ana Luiza", "ana@example.com")
     listar_clientes()
-
-
-
-
-    
