@@ -2,7 +2,7 @@
 Projeto que aplica práticas de controle de versões no desenvolvimento de um sistema simples em Python para gerir reservas, quartos e clientes."
 # gestao-hotel-git
 
-## Autor
+## Autora
 - Ana Luiza Dornas
 
 ## Descrição Geral
