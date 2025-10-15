@@ -1,8 +1,9 @@
-from clientes import registrar_cliente, listar_clientes, Cliente
+from clientes import registrar_cliente, listar_clientes, Cliente, saudacao
 from quartos import listar_quartos
 from reservas import criar_reserva, cancelar_reserva, listar_reservas
 
 if __name__ == "__main__":
+    saudacao()  # Exibe saudação ao iniciar
     while True:
         print("\n1. Registrar Cliente\n2. Listar Clientes\n3. Listar Quartos\n4. Criar Reserva\n5. Cancelar Reserva\n6. Sair")
         op = input("Escolha uma opção: ")
