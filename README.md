@@ -45,4 +45,6 @@ Garanti a inclusao de saudacao em app.py e fiz push da correcao.
 
 Usei git merge para integrar branches e editei manualmente os arquivos necessários.
 
+Criei tag v1.0 com git tag -a v1.0 -m "Versão final" e git push origin v1.0.
+
 
